@@ -10,7 +10,7 @@ It does a good job getting most of the images and storing them all locally into 
 
 ### Why I made this
 
-1. **Research & Analysis**: By having an offline collection of the images, I can easily categorize, analyze, and study different musical products, their appearances, and design trends over time.
+1. **Research & Analysis**: By having an offline collection of the images, I can easily categorize and analyze where the hidden image is located by looking at the descriptive file name. You can also do your own research for a specific thing you want.
    
 2. **Visual Search**: The tool's ability to match images to a reference allows me to identify similar products or branding, which can be incredibly useful when looking for products of a specific design or style.
    
@@ -33,12 +33,12 @@ It does a good job getting most of the images and storing them all locally into 
 Ensure you have the required libraries installed:
 
 ```bash
-pip install requests beautifulsoup4 Pillow imagehash
+pip3 install requests beautifulsoup4 Pillow imagehash
 ```
 
 Then, simply run the script:
 ```bash
-python scraper_script.py
+python3 scraper_script.py
 ```
 
 The images will be downloaded into a folder named `downloaded-img`.
